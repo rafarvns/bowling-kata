@@ -7,7 +7,7 @@ public class CalculadoraPontuacaoBoliche {
     private int maxRounds;
 
     //Adicionei o parâmetro maxRounds pois pelo que pesquisei sobre as regras do boliche,
-    //a quantidade de rodadas é uma modalidade, portanto creio ser necessário ser definido antes da computação dos pontos
+    //a quantidade de rodadas muitas vezes é uma modalidade, portanto achei que ficaria mais completo.
     public int pontuacaoDoJogo(int[] jogadas, int maxRounds) {
         int resultado = 0;
         this.jogadas = jogadas;
